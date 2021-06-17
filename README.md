@@ -114,6 +114,6 @@ this decoded the text and i got the flag.
 
 **Approach:**
 
-A png file was provided . Used Ghex to look into the data . We can see multiple file signatures afetr the PNG which is of jpg.
+A png file was provided . Used Ghex to look into the data . We can see multiple file signatures after the PNG which is of jpg.
 
 Edited the data and saved the file to get an image which had the correct flag.
