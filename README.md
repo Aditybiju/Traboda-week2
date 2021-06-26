@@ -26,11 +26,11 @@ Have you heard of bases? I heard combination of those can be really cool!
 
 I opened the base.txt given and found it is encoded. It was encoded with base64 so decoded it using linux command:
 
-echo&quot;text given&quot;|base64 --decode --;This actually decodes the base64 encryted text and after decoding i got a base32 encoded text.so i used the following command:
+echo&quot;text given&quot;|base64 --decode ;This actually decodes the base64 encryted text and after decoding i got a base32 encoded text.so i used the following command:
 
-echo&quot; &quot;|base32 --decode --; This actually decodes the base32 encrypted text and after decoding it i got a hex encrypted text. So i used the folllowing command :
+echo&quot; &quot;|base32 --decode ; This actually decodes the base32 encrypted text and after decoding it i got a hex encrypted text. So i used the folllowing command :
 
-echo&quot; &quot;|xxd -p-r|base64--; This actually decodes the text and i got a base64 encoded text. And i decoded it to get the flag.
+echo&quot; &quot;|xxd -p-r|base64 --decode; This actually decodes the text and i got a base64 encoded text. And i decoded it to get the flag.
 
 **Challenge3: Single byte Xor**
 ----------------------------------
